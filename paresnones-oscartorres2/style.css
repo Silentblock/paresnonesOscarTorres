@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "Corpse";
+  src: url(Corpse.ttf);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.pantalla{
+    position:relative;
+    width:900px;
+    height: 600px;
+    background-color:grey;
+    margin:1em;
+    text-align:center;
+    font-size: 3em;
+    vertical-align: center;
+}
+#pantalla1{
+    background-image:url(skeleton-3342754_960_720.png),url('mujerzombie.png');
+    background-size: 50%,25%;
+    background-position: bottom right, top center;
+    background-repeat: no-repeat,no-repeat;
+}
+button{
+    font-size:1.5em;
+    background-color:black;
+    color:white;
+    padding:.2em;
+    opacity: 0.8;
+    
+    
+}
+h1{
+    color:red;
+    text-shadow: 10px;
+    font-family: "corpse";
+    opacity: 0,9;
+    
+    
+}
+h2{
+    color:rebeccapurple;
+    font-family: "corpse"
+}
+button{
+    color:darkred;
+    border-radius: 25px;
+    font-family: "corpse"
+}
+
+@font-face {
+    font-family:"corpse";
+    src:url("Corpse.ttf");
+        
+}
+#pantalla5{
+    background-image:url(imagenes-terror--644x362.jpg);
+}
+
+#pantalla2{
+    background-image:url(8049fa67ca633b601d31775efd2015fe.jpg);
+    opacity: 0.9;
+}
+#numeros{
+    color:red;
+}
+#pantalla4{
+    background-image:url(depositphotos_64423043-stock-illustration-dead-tree-silhouette.jpg);
+        opacity:0.9;
+}
+
+ul{
+    list-style: none;
+}
+/*input[type="radio"]{display:none;}*/
+    
+
+
+
+
+
+
+
+
